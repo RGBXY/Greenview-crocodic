@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenGarden</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playball&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="fixed z-50 top-0 right-0 w-full h-20 flex justify-center items-center">
+      <div class="w-[90%] flex justify-between items-center">
+        <div class="w-[300px]">
+          <img src="../src/Images/Logo-GG-w500.png" alt="" />
+        </div>
+        <div></div>
+        <div class="flex-col items-center justify-center w-[50%] px-3 gap-3 flex md:flex-row text-xl font-semibold">
+          <a class="heh no-underline text-white" href="">Home</a>
+          <a class="heh no-underline text-white" href="">About</a>
+          <a class="heh no-underline text-white" href="">Service</a>
+          <a class="heh no-underline text-white" href="">Gallery</a>
+          <a class="heh no-underline text-white" href="">Blog</a>
+          <a class="heh no-underline text-white" href="">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero" class="bg-[url('../../src/Images/Background-1.png')] bg-cover bg-center bg-no-repeat h-[100svh] relative">
+      <div class="absolute inset-0 bg-gray-900 bg-opacity-25"></div>
+      <div class="flex justify-center items-center h-full flex-col absolute w-full">
+        <h1 class="text-white font-Playball text-[5.5rem]">Green View For Good Life</h1>
+        <p class="text-white text-2xl font-normal">Prepare your garden with our profesional</p>
+        <div class="group mt-10">
+          <a class="text-white bg-green-500 group-hover:bg-green-600 text-2xl px-5 py-2 align-middle rounded-lg flex justify-center items-center no-underline" href=""
+            ><span class="mb-1 mr-1 group-hover:mr-2">Hire Our Profesional Now</span> <i class="ph-bold ph-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+      <!-- <div class="absolute bottom-0 w-full h-5 linear bg-gradient-to-b from-transparent to-white"></div> -->
+    </section>
+
+    <section id="about" class="flex flex-col justify-center items-center py-20">
+      <div class="text-center">
+        <h1 class="font-Playball text-[2.5rem] mb-3">Why Should We?</h1>
+        <h3 class="text-xl font-semibold">Because we belive you are our boss and we serve you with passion</h3>
+      </div>
+      <div class="flex justify-between w-[90%] flex-wrap">
+        <div class="w-[300px] h-[300px] flex justify-center flex-col items-center text-center">
+          <img class="mb-6 h-20" src="../src/Images/Icon-star.png" alt="" />
+          <h1 class="text-2xl font-semibold mb-2">Good Reputation Since'89</h1>
+          <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, debitis.</p>
+        </div>
+        <div class="w-[300px] h-[300px] flex justify-center flex-col items-center text-center">
+          <img class="mb-6 h-20" src="../src/Images/Icon-legal-company.png" alt="" />
+          <h1 class="text-2xl font-semibold mb-2">Legal Company</h1>
+          <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, debitis.</p>
+        </div>
+        <div class="w-[300px] h-[300px] flex justify-center flex-col items-center text-center">
+          <img class="mb-6 h-20" src="../src/Images/Icon-award.png" alt="" />
+          <h1 class="text-2xl font-semibold mb-2">Focus On Quality</h1>
+          <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, debitis.</p>
+        </div>
+        <div class="w-[300px] h-[300px] flex justify-center flex-col items-center text-center">
+          <img class="mb-6 h-20" src="../src/Images/Icon-good-price.png" alt="" />
+          <h1 class="text-2xl font-semibold mb-2">Good Price</h1>
+          <p class="font-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, debitis.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimoni" class="bg-[url('../../src/Images/Background-3.jpeg')] bg-cover bg-center bg-no-repeat h-[75vh] relative flex justify-center">
+      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div class="flex items-center flex-col absolute w-[90%] mt-5 h-[80%] container">
+        <h1 class="font-Playball text-[2.5rem] mb-2 text-white">Our Best Boss</h1>
+        <p class="text-xl font-semibold text-white">Our client is our best boss who believes in us</p>
+        <div id="carouselExampleIndicators" class="carousel slide mt-5">
+          <div class="carousel-indicators m-0" style="justify-content: end; right: 9rem; bottom: -1.5rem">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1" style="width: 15px; height: 15px"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="rounded-circle" aria-label="Slide 2" style="width: 15px; height: 15px"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="rounded-circle" aria-label="Slide 3" style="width: 15px; height: 15px"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="rounded-circle" aria-label="Slide 4" style="width: 15px; height: 15px"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="w-full h-full flex justify-center items-center">
+                <div class="flex justify-center w-full">
+                  <img class="h-[190px] w-[190px] rounded-full object-cover mr-6" src="../src/Images/Client-1.jpeg" alt="" />
+                  <div class="w-[60%]">
+                    <h1 class="text-3xl font-bold text-white mb-3">Amira Lesley</h1>
+                    <p class="text-white inset-0 bg-white bg-opacity-25 p-2 rounded-lg">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, delectus? Inventore, laborum quis nemo fugit exercitationem ipsum qui quo debitis corporis consequuntur voluptates assumenda? Ut voluptas
+                      reiciendis corrupti eaque expedita temporibus veniam. Esse eum veniam eligendi, mollitia accusantium enim consequatur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-full h-full flex justify-center items-center">
+                <div class="flex justify-center w-full">
+                  <img class="h-[190px] w-[190px] rounded-full object-cover mr-6" src="../src/Images/Client-3.jpeg" alt="" />
+                  <div class="w-[60%]">
+                    <h1 class="text-3xl font-bold text-white mb-3">Emanuela Ester</h1>
+                    <p class="text-white inset-0 bg-white bg-opacity-25 p-2 rounded-lg">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, delectus? Inventore, laborum quis nemo fugit exercitationem ipsum qui quo debitis corporis consequuntur voluptates assumenda? Ut voluptas
+                      reiciendis corrupti eaque expedita temporibus veniam. Esse eum veniam eligendi, mollitia accusantium enim consequatur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-full h-full flex justify-center items-center">
+                <div class="flex justify-center w-full">
+                  <img class="h-[190px] w-[190px] rounded-full object-cover mr-6" src="../src/Images/Client-4.jpeg" alt="" />
+                  <div class="w-[60%]">
+                    <h1 class="text-3xl font-bold text-white mb-3">Joanna Denara</h1>
+                    <p class="text-white inset-0 bg-white bg-opacity-25 p-2 rounded-lg">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, delectus? Inventore, laborum quis nemo fugit exercitationem ipsum qui quo debitis corporis consequuntur voluptates assumenda? Ut voluptas
+                      reiciendis corrupti eaque expedita temporibus veniam. Esse eum veniam eligendi, mollitia accusantium enim consequatur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-full h-full flex justify-center items-center">
+                <div class="flex justify-center w-full">
+                  <img class="h-[190px] w-[190px] rounded-full object-cover mr-6" src="../src/Images/Client-5.jpg" alt="" />
+                  <div class="w-[60%]">
+                    <h1 class="text-3xl font-bold text-white mb-3">Theodorus Danael</h1>
+                    <p class="text-white inset-0 bg-white bg-opacity-25 p-2 rounded-lg">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, delectus? Inventore, laborum quis nemo fugit exercitationem ipsum qui quo debitis corporis consequuntur voluptates assumenda? Ut voluptas
+                      reiciendis corrupti eaque expedita temporibus veniam. Esse eum veniam eligendi, mollitia accusantium enim consequatur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="service" class="flex flex-col justify-center items-center pt-20 pb-36">
+      <div class="text-center">
+        <h1 class="font-Playball text-[2.5rem] mb-3">Our Special Service</h1>
+        <h3 class="text-xl font-semibold mb-4">to give you a diferent think about garden, makes you feel comfortable</h3>
+      </div>
+      <div class="flex justify-between w-[90%] flex-wrap">
+        <div class="w-[300px] flex flex-col items-center text-center shadow-md rounded-md">
+          <div class="bg-slate-500 w-full h-[200px] mb-3 rounded-t-md">
+            <img class="h-full w-full rounded-t-md" src="../src/Images/Service-1.jpg" alt="" />
+          </div>
+          <div class="container flex flex-col">
+            <h1 class="text-lg font-bold m-0">Grass Cutting</h1>
+            <p class="font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolores nisi amet est illo qui suscipit nulla necessitatibus alias vel.</p>
+          </div>
+        </div>
+        <div class="w-[300px] flex flex-col items-center text-center shadow-md rounded-md">
+          <div class="bg-slate-500 w-full h-[200px] mb-3 rounded-t-md">
+            <img class="h-full w-full rounded-t-md" src="../src/Images/Service-5.jpeg" alt="" />
+          </div>
+          <div class="container">
+            <h1 class="text-lg font-bold m-0">Planting</h1>
+            <p class="font-medium">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque sed cumque magni accusamus accusantium ducimus consequuntur, maxime repellendus nam in?</p>
+          </div>
+        </div>
+        <div class="w-[300px] flex flex-col items-center text-center shadow-md rounded-md">
+          <div class="bg-slate-500 w-full h-[200px] mb-3 rounded-t-md">
+            <img class="h-full w-full rounded-t-md" src="../src/Images/Service-3.jpeg" alt="" />
+          </div>
+          <div class="container">
+            <h1 class="text-lg font-bold m-0">Seed Provider</h1>
+            <p class="font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, voluptatum!</p>
+          </div>
+        </div>
+        <div class="w-[300px] flex flex-col items-center text-center shadow-md rounded-md">
+          <div class="bg-slate-500 w-full h-[200px] mb-3 rounded-t-md">
+            <img class="h-full w-full rounded-t-md" src="../src/Images/Service-4.jpeg" alt="" />
+          </div>
+          <div class="container">
+            <h1 class="text-lg font-bold m-0">Preapare Land Garden</h1>
+            <p class="font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, voluptatum!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hire" class="bg-[url('../../src/Images/Background-2.jpeg')] bg-cover bg-center bg-no-repeat h-[60svh] relative flex justify-center items-center">
+      <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex justify-center items-center"></div>
+      <div class="flex w-[90%] h-full absolute justify-between items-center">
+        <div class="text-white absolute">
+          <h1 class="font-Playball">Lets make your garden Awesome!</h1>
+          <p class="text-xl mb-10">With our profesional we make wonderfull garden in your yard</p>
+          <a href="" class="no-underline text-white flex justify-center items-center py-2 w-[65%] bg-green-500 rounded-md">
+            <h3 class="font-normal text-2xl mr-2">Hire Our Profesional Now</h3>
+            <i class="ph-bold ph-arrow-right text-3xl mb-1"></i
+          ></a>
+        </div>
+        <div class="h-[500px] absolute bottom-0 right-0">
+          <img class="w-full h-full" src="../src/Images/worker2.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="flex flex-col justify-center items-center py-20 bg-[#20323b]">
+      <div class="text-center text-white">
+        <h1 class="font-Playball text-[2.5rem] mb-3">Recent Project</h1>
+        <h3 class="text-xl font-normal">We serve with integrity and detail</h3>
+      </div>
+      <div class="flex justify-between w-[90%] flex-wrap mt-10">
+        <div class="w-[300px] h-[200px] flex justify-center flex-col items-center text-center">
+          <img class="" src="../src/Images/Project-4.jpeg" alt="" />
+        </div>
+        <div class="w-[300px] h-[200px] flex justify-center flex-col items-center text-center">
+          <img class="w-full h-full" src="../src/Images/Project-1.jpeg" alt="" />
+        </div>
+        <div class="w-[300px] h-[200px] flex justify-center flex-col items-center text-center">
+          <img class="w-full h-full" src="../src/Images/Project-3.jpeg" alt="" />
+        </div>
+        <div class="w-[300px] h-[200px] flex justify-center flex-col items-center text-center">
+          <img class="h-full w-full" src="../src/Images/Project-2.jpeg" alt="" />
+        </div>
+      </div>
+      <a href="" class="no-underline text-white flex justify-center items-center py-2 px-3 bg-green-500 rounded-md mt-5">
+        <h3 class="font-normal text-2xl mr-2">More Project</h3>
+        <i class="ph-bold ph-arrow-right text-3xl mb-1"></i
+      ></a>
+    </section>
+
+    <section id="contact" class="flex flex-col justify-center items-center pt-20 py-36">
+      <div class="text-center">
+        <h1 class="font-Playball text-[2.5rem] mb-3">Pricing Guide</h1>
+        <h3 class="text-xl font-normal">Chose your pricing plan and we will make your garden beauty</h3>
+      </div>
+      <div class="flex justify-between w-[90%] text-white mt-8">
+        <div class="w-[400px] bg-[#20323b] text-center rounded-lg">
+          <h1 class="font-Playball py-4 border-b-[3px] border-green-500 text-5xl">Basic</h1>
+          <div class="flex justify-center items-center mt-3 mb-2">
+            <p class="text-[2.5rem]" style="margin-top: -2rem">$</p>
+            <h1 class="text-[6rem]">10</h1>
+            <h3 class="text-[2rem]">68</h3>
+          </div>
+          <div class="flex justify-center items-center flex-col">
+            <p class="w-[80%] text-2xl font-thin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis animi ipsam asperiores laborum nisi odio eveniet quasi. Omnis, molestias! Aliquam blanditiis nemo quasi at repellat!</p>
+            <a href="" class="no-underline text-white flex justify-center py-2 w-[55%] bg-green-500 rounded-md mt-5 mb-4">
+              <h3 class="font-normal text-2xl mr-2">Contact Now</h3>
+              <i class="ph-bold ph-arrow-right text-3xl mb-1"></i
+            ></a>
+          </div>
+        </div>
+        <div class="w-[400px] bg-[#20323b] text-center rounded-lg">
+          <h1 class="font-Playball py-4 border-b-[3px] border-green-500 text-5xl">Standart</h1>
+          <div class="flex justify-center items-center mt-3 mb-2">
+            <p class="text-[2.5rem]" style="margin-top: -2rem">$</p>
+            <h1 class="text-[6rem]">23</h1>
+            <h3 class="text-[2rem]">83</h3>
+          </div>
+          <div class="flex justify-center items-center flex-col">
+            <p class="w-[80%] text-2xl font-thin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis animi ipsam asperiores laborum nisi odio eveniet quasi. Omnis, molestias! Aliquam blanditiis nemo quasi at repellat!</p>
+            <a href="" class="no-underline text-white flex justify-center py-2 w-[55%] bg-green-500 rounded-md mt-5 mb-4">
+              <h3 class="font-normal text-2xl mr-2">Contact Now</h3>
+              <i class="ph-bold ph-arrow-right text-3xl mb-1"></i
+            ></a>
+          </div>
+        </div>
+        <div class="w-[400px] bg-[#20323b] text-center rounded-lg">
+          <h1 class="font-Playball py-4 border-b-[3px] border-green-500 text-5xl">Premium</h1>
+          <div class="flex justify-center items-center mt-3 mb-2">
+            <p class="text-[2.5rem]" style="margin-top: -2rem">$</p>
+            <h1 class="text-[6rem]">47</h1>
+            <h3 class="text-[2rem]">98</h3>
+          </div>
+          <div class="flex justify-center items-center flex-col">
+            <p class="w-[80%] text-2xl font-thin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis animi ipsam asperiores laborum nisi odio eveniet quasi. Omnis, molestias! Aliquam blanditiis nemo quasi at repellat!</p>
+            <a href="" class="no-underline text-white flex justify-center py-2 w-[55%] bg-green-500 rounded-md mt-5 mb-4">
+              <h3 class="font-normal text-2xl mr-2">Contact Now</h3>
+              <i class="ph-bold ph-arrow-right text-3xl mb-1"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer" class="">
+      <div class="bg-[#20323b] bg-cover bg-center bg-no-repeat h-[60svh] relative flex justify-center items-center w-full flex-col">
+        <div class="flex w-[90%] h-full justify-between items-center">
+          <div class="flex justify-between w-[70%]">
+            <div class="text-white w-[40%]">
+              <img width="250px" class="mb-4" src="../src/Images/Logo-GG-w500.png" alt="" />
+              <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cupiditate est voluptatem aperiam dolores perferendis saepe at harum ullam fugiat.</p>
+              <a href="" class="no-underline text-green-500 flex items-center w-[65%]">
+                <h3 class="font-semibold text-lg mr-2">Read More</h3>
+                <i class="ph-bold ph-caret-right text-sm mb-1"></i
+              ></a>
+            </div>
+            <div class="text-white w-[50%]">
+              <h1 class="text-3xl mb-4">Contact Us :</h1>
+              <div class="no-underline flex items-start">
+                <i class="ph-bold ph-phone mb-1 text-2xl mr-2.5"></i>
+                <h3 class="font-semibold text-lg mr-2">+1 736 829 73</h3>
+              </div>
+              <div class="no-underline flex items-start">
+                <i class="ph-bold ph-envelope-simple mb-1 text-2xl mr-2.5"></i>
+                <h3 class="font-semibold text-lg mr-2">hay@greengarden.com</h3>
+              </div>
+              <div class="no-underline flex items-start">
+                <i class="ph-bold ph-map-pin mb-1 text-2xl mr-2.5"></i>
+                <h3 class="font-semibold text-lg mr-2">32040 Orange Ave, Jakarta, Taman Anggrek, CA 932339</h3>
+              </div>
+              <div class="no-underline flex items-start w-[50%]">
+                <i class="ph-bold ph-door-open mb-1 text-2xl mr-2.5 items-start"></i>
+                <h3 class="font-semibold text-lg mr-2">Opening Hours : Monday - Friday 09.00 - 17.00</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="h-[500px] absolute bottom-0 right-0">
+            <img class="w-full h-full" src="../src/Images/worker4.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center bg-[#1a2931] h-[45px]">
+        <div class="text-white w-[90%] flex justify-between items-center">
+          <p class="m-0">&copy;Copyright Green Garden 2024. All Rights Reserved.</p>
+          <div class="h-full text-white text-4xl flex justify-center items-center">
+            <i class="ph-fill ph-facebook-logo mr-0.5"></i>
+            <i class="ph-fill ph-google-logo mr-0.5"></i>
+            <i class="ph-bold ph-instagram-logo mr-0.5"></i>
+            <i class="ph-bold ph-linkedin-logo mr-0.5"></i>
+            <i class="ph-bold ph-twitter-logo"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
